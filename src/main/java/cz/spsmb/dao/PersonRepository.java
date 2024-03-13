@@ -19,4 +19,6 @@ public class PersonRepository implements PanacheRepository<Person> {
         return findById(id);
     }
 
+    public void persist() {
+    }
 }
